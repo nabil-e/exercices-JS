@@ -18,7 +18,7 @@ function askTvSerie(){
         let serieJson = JSON.stringify(serie)
         let fs = require('fs');
         // write a json in file
-        fs.writeFileSync("./serie.json", serieJson,"utf8")
+        fs.writeFileSync("./serie.json", serieJson, "utf8")
     }
     
 }
